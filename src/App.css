@@ -1,0 +1,524 @@
+/* --------- This is CSS Reset Code --------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* --------- Begin your CSS Below here --------- */
+
+
+/* HEADER */
+header {
+	height: 60px;
+	width: 100vw;
+	background-color: #CC6600;
+	padding: 0px 35px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	top: 0px;
+	box-sizing: border-box;
+  }
+
+  h2 {
+	font-size: xx-large;
+	font-weight: 900;
+	font-family: arial;
+  }
+
+
+.head-btn {
+	font-size: x-large;
+	color: white;
+	background-color:  #CC6600;
+	border: none;
+	text-decoration: none;
+	padding: 10px;
+	margin: 2vw;
+  }
+
+/* button {
+	color: white;
+	background-color:  #CC6600;
+	border: none;
+	text-decoration: none;
+	padding: 10px;
+	margin: 2vw;
+} */
+
+.head-btn:hover {
+	background-color: #CC6000;
+	box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	-webkit-box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	-moz-box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .5s;
+  }
+
+
+  /* body {
+	background-color: black;
+  } */
+
+  /* FOOTER */
+
+
+  footer {
+	height: 150px;
+	background-color: black;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+	bottom: 0px;
+	/* position: sticky; */
+
+  }
+
+
+  h5 {
+	color: white;
+	font-weight: 800;
+	font-size: 1.2rem;
+	font-size: large;
+	font-weight: 900;
+	font-family: arial;
+	margin-left: 5vw;
+  }
+
+  .icon-container {
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+	align-items: center;
+  }
+
+
+  .icons {
+	display: flex;
+	flex-direction: row;
+	margin-left: 5vw;
+  } 
+
+
+  .icons > a {
+	background-color: #3C858A;
+	display: flex;
+	padding: 15px;
+	border-radius: 50%;
+	margin: 15px;
+  }
+
+  .logo-circle {
+	display: flex;
+	margin-left: 55vw;
+  }
+
+  /* ADBANNER */
+
+.bckgrnd-img {
+	height: 40vh;
+  }
+
+
+  .ad-container {
+	color: white;
+	text-align: center;
+  }
+
+  .new-recipe {
+	padding-top: 30px;
+  }
+
+  .ad-h3 {
+	font-size: small;
+	font-weight: 400;
+	font-family: arial;
+  }
+
+
+
+  .pinapple-salmon {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2.5rem;
+	font-weight: 800;
+	font-family: arial;
+	color: #CC6600;
+  }
+
+  .blue-btn {
+	background-color: #3C858A;
+	color: white;
+	height: 2.5em;
+	width: 7.8em;
+	padding: 0px;
+	border: none;
+	text-decoration: none;
+	padding: 10px;
+	margin: 2vw;
+  }
+
+  .blue-btn:hover {
+	background-color: #3C858A;
+	box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	-webkit-box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	-moz-box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	cursor: pointer;
+	transition: .5s;
+  }
+
+  /* RECIPE CARDS */
+
+
+
+  .search-bar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 25px 0px 25px 42vw;
+	gap: 5px;
+  }
+
+  .recipe-input {
+	height: 25px;
+	width: 150px; 
+	border: none;
+  }
+
+  ::placeholder {
+	color: black;
+	font-family: Trebuchet MS;
+	font-weight: 200;
+	font-size: .9rem;
+  }
+
+
+  /* DETAILS SCREEN*/
+  .full-container {
+	display: flex;
+	justify-content: center;
+	gap: 25vw;
+
+  }
+
+
+  .right-container {
+	/* display: flex; */
+	/* justify-content: center;
+	align-items: center;
+	flex-direction: column; */
+  	width: 24%;
+	text-align: left;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	/* float: right; */
+  }
+
+
+
+  .left-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* float: left; */
+	gap: 50px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+  }
+
+  .ingredients {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+  }
+
+
+ .Recipe > h1 {
+		font-size: 30px;
+		margin-left: 100%;
+		margin-bottom: 1rem;
+		float: right;
+   }
+
+   .ingredients > h1 {
+	font-size: 30px;
+	margin-left: 25%;
+	margin-bottom: 1rem;
+}
+
+.instructions {
+	font-size: 30px;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+   li {
+	list-style-type: none;
+   }
+
+
+.ad-container2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem;
+}
+
+
+/* RECIPE SCREEN */
+
+.input-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.new-recipe-section {
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+section > h1 {
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 2rem;
+}
+
+
+/* Input One */
+
+.input-container1 {
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+	margin-top: 2rem;
+}
+
+
+ .input-container1 > input {
+	height: 2rem;
+	width: 13rem;	
+	text-align: left;
+	padding-top: 5px;
+	 
+}
+
+.input-container1 > input::placeholder {
+	font-size: 2em;
+	font-weight: 100;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+/* Input Two */
+
+
+.input-container2 {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	margin-bottom: 1.5em;
+}
+
+
+ .input-container2 > input {
+	height: 2rem;
+	width: 8.3rem;	
+	text-align: left;
+	padding-top: 5px;
+	 
+}
+
+.input-container2 > input::placeholder {
+	font-size: 2em;
+	font-weight: 100;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+/* INPUT THREE */
+
+.input-container3 {
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+
+	gap: 25px;
+	margin-top: 0em;
+	margin-bottom: 1.5em;
+}
+
+
+ .input-container3 > input {
+	height: 2rem;
+	width: 15rem;	
+	text-align: left;
+	padding-top: 5px;
+	margin-left: 2.6rem;
+	 
+}
+
+.input-container3 > input::placeholder {
+	font-size: 2em;
+	font-weight: 100;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bottom-container {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+
+
+}
+
+/* span {
+	display: flex;
+	justify-content: left;
+	width: 10rem;
+
+} */
+
+.form-list > li{
+	list-style-type: initial;
+}
+
+/* RADIO BUTTONS*/
+
+.radio-container {
+	display: flex;
+	flex-direction: row;
+	gap: 3.5rem;
+	width: 35rem;
+	height: 3.5rem;
+	justify-content: center;
+	align-items: center;
+	text-align: right;
+}
+
+.cook-input {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.bake-input {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.drink-input {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+input[type="radio"] {
+	-ms-transform: scale(3); /* IE 9 */
+	-webkit-transform: scale(3); /* Chrome, Safari, Opera */
+	transform: scale(3);
+  }
+
+
+
+
+
+/* Buttons */
+
+.add-ingred {
+	font-size: x-large;
+	color: white;
+	background-color:  #CC6600;
+	border: none;
+	border-left: white solid 10rem;
+	border-right: white solid 10rem;
+	text-decoration: none;
+	padding: 10px;
+	margin-bottom: 2rem;
+  }
+
+  .add-ingred:hover {
+	background-color: #CC6000;
+	box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	-webkit-box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	-moz-box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	cursor: pointer;
+	transition: .5s;
+  }
+
+
+  .save-btn {
+	font-size: x-large;
+	color: white;
+	background-color:  #3C858A;
+	border: none;
+	border-left: white solid 10rem;
+	border-right: white solid 10rem;
+	text-decoration: none;
+	padding: 10px;
+	margin-bottom: 2rem;
+  }
+
+  .save-btn:hover {
+	background-color: #3C858A;
+	box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	-webkit-box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	-moz-box-shadow: -6px -7px 38px 6px rgba(0,0,0,0.51) inset;
+	cursor: pointer;
+	transition: .5s;
+  }
+
+
+  /* TEXT AREA */
+
+
+  .text-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .instructions-area {
+	height: 20vh;
+	width: 40vw;
+	resize: none;
+  }
+
+
+  .instructions-area::placeholder{
+	font-size: x-large;
+	padding: 10px;
+  }
